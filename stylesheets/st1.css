@@ -1,0 +1,31 @@
+#message{
+      line-height:80vh;
+    width: 575px;
+    height: 80vh;
+    border:5px solid black;
+    margin:0 auto;
+    font-size: 150%;
+    background-color: #8e68ff;
+    background-image: url('');
+    background-repeat: no-repeat;
+    color:#FFFFFF;
+    text-align: center;
+    background-size: 100%;
+    margin-bottom:25px;
+    object-fit:fill;
+}
+img{
+  width:95%;
+}
+.col-sm-3 img{
+    width:300px;
+    height:300px;
+    object-fit: fill;
+}
+.col-sm-6 img{
+    float:left;
+    margin-top:16vh;
+    width:200px;
+    height:200px;
+    object-fit: fill;
+}
