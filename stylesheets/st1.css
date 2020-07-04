@@ -2,6 +2,7 @@ body{
     margin-left:2%;
     margin-right: 2%;
 }
+/* NAVBAR */
 .bs-example{
         margin-top:0px;
     }
@@ -16,7 +17,7 @@ body{
     text-transform: uppercase;
 
 }
-
+/* MIDDLEMOST COLUMN */
 #message{
     line-height:78vh;
     width:500px;
@@ -38,6 +39,8 @@ body{
 img{
   width:95%;
 }
+
+/* Left, Right columns */
 .col-sm-3 img{
     width:250px;
     height:250px;
@@ -47,30 +50,16 @@ img{
     border-width: 2px;
     border-color: black;
 }
-.col-sm-6 img{
+/*.col-sm-6 img{
     float:left;
     margin-top:16vh;
     width:250px;
     height:250px;
    object-fit: scale-down; 
-
-  /* max-width:100%;
-    max-height:100%;
-    vertical-align: middle; */
 }
-/* #apple
-{
-    clear:both;
-    padding-left: 18px;
-}
-#apple img{
-    display: inline-block;
-    float:left;
-    height:200px;
-    width:22.6vw;
-    padding-right:18px;
-} */
+*/
 
+/* Footer begins */
 .footer-distributed{
     border-top-left-radius:10px;
     border-top-right-radius:10px;  
@@ -120,17 +109,14 @@ img{
     margin-bottom: 5px;
 }
 
-/* If you don't want the footer to be responsive, remove these media queries */
-
 @media (max-width: 880px) {
 
     .footer-distributed{
         font: bold 14px sans-serif;
     }
-
-    
-
 }
+
+/* Footer ends */
 
 
 
