@@ -1,31 +1,128 @@
-#message{
-      line-height:80vh;
-    width: 575px;
-    height: 80vh;
-    border:5px solid black;
+body{
+    margin-left:2%;
+    margin-right: 2%;
+}
+.navbar-default{
+    background-color: silver;
+    }
+.navbar-brand
+{
+    text-transform: uppercase;
+
+}#message{
+    line-height:78vh;
+    width:500px;
+    height: 78vh;
+    border:2px solid black;
+    box-shadow: 4px 4px 2px #c0c0c0;
     margin:0 auto;
     font-size: 150%;
-    background-color: #8e68ff;
+    background-color: silver;
     background-image: url('');
     background-repeat: no-repeat;
-    color:#FFFFFF;
+    color:white;
     text-align: center;
     background-size: 100%;
     margin-bottom:25px;
-    object-fit:fill;
+    object-fit:contain;
+    font-family: Helvetica;
 }
 img{
   width:95%;
 }
 .col-sm-3 img{
-    width:300px;
-    height:300px;
+    width:250px;
+    height:250px;
     object-fit: fill;
+    box-shadow: 4px 4px 2px #c0c0c0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
 }
 .col-sm-6 img{
     float:left;
     margin-top:16vh;
-    width:200px;
-    height:200px;
-    object-fit: fill;
+    width:250px;
+    height:250px;
+   object-fit: scale-down; 
+
+  /* max-width:100%;
+    max-height:100%;
+    vertical-align: middle; */
 }
+/* #apple
+{
+    clear:both;
+    padding-left: 18px;
+}
+#apple img{
+    display: inline-block;
+    float:left;
+    height:200px;
+    width:22.6vw;
+    padding-right:18px;
+} */
+
+.footer-distributed{
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;  
+    background: silver;
+    box-shadow: 0 1px 1px 0 grey;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+}
+.footer-distributed div{
+    font-weight: bold;
+}
+
+.footer-distributed .footer-links{
+    color:  #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+  font-weight:400;
+    text-decoration: none;
+    color:  inherit;
+}
+.footer-distributed .footer-icons{
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+    .footer-distributed{
+        font: bold 14px sans-serif;
+    }
+
+    
+
+}
+
+
+
