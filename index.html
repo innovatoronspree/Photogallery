@@ -15,7 +15,17 @@
 <link rel="stylesheet" href="stylesheets/st1.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src = "js/gallery.js"></script> 
- 
+ <script>
+  var x = document.getElementsByTagName('img');
+var y = x.length;
+console.log(y);
+ for(var i=0;i<y;i++)
+{
+  document.getElementsByTagName('p')[i].innerHTML = x[i].alt;
+}
+ </script>
+
+
 </head>
 <body>
   <!-- Navbar -->
@@ -45,11 +55,25 @@
       style="background-color:cyan;"
       style="background-color:pink;" -->
     <div class="col-sm-3" >
-
+      <script>
+  var x = document.getElementsByTagName('img');
+var y = x.length;
+console.log(y);
+ for(var i=0;i<y;i++)
+{
+  document.getElementsByTagName('p')[i].innerHTML = x[i].alt;
+}
+ </script>
     <img class="img-responsive" src="forestroad.jpg" alt="Forest Road" width="300" height="200" onmouseover = "upDate(this)" onmouseout = "unDo()"> 
     <br>
+    <div class="caption">
+          <p>Lorem ipsum...</p>
+    </div>
     <img class="img-responsive" src="rocks.jpg" alt="Rocks" width="300" height="200" onmouseover = "upDate(this)" onmouseout = "unDo()"> 
-    <br> <!--
+    <br> 
+    <div class="caption">
+          <p>Lorem ipsum...</p>
+      </div><!--
     <img class="img-responsive" src="building.jpg" alt="Building" width="300" height="200" onmouseover = "upDate(this)" onmouseout = "unDo()">  -->
     <br>
 
@@ -57,7 +81,7 @@
 
     <div class="col-sm-6" >
         <div id = "message">
-    Hover over an image to display the alt text.
+    Hover over an image to display the image here.
   </div>
  <!-- <img class="img-responsive" src="donut.jpg" alt="Donut" width="300" height="200" onmouseover = "upDate(this)" onmouseout = "unDo()"> 
   <img class="img-responsive" src="bushes.jpg" alt="Bushes" width="300" height="200" onmouseover = "upDate(this)" onmouseout = "unDo()">  -->
@@ -65,10 +89,15 @@
 
     <div class="col-sm-3" >
     <img class="img-responsive" src="monastery.jpg" alt="Monastery" width="300" height="200" onmouseover = "upDate(this)" onmouseout = "unDo()"> 
-
     <br>
+    <div class="caption">
+          <p>Lorem ipsum...</p>
+      </div>
     <img class="img-responsive" src="castle.jpg" alt="Castle" width="300" height="200" onmouseover = "upDate(this)" onmouseout = "unDo()"> 
     <br>
+    <div class="caption">
+          <p>Lorem ipsum...</p>
+      </div>
    <!-- <img class="img-responsive" src="tower.jpg" alt="Sky Scraper" width="300" height="200" onmouseover = "upDate(this)" onmouseout = "unDo()"> -->
     <br>
 
@@ -88,18 +117,30 @@
     <div class="col-sm-3" >
        <img class="img-responsive" src="History.jpg" alt="Road shot" width="300" height="200" onmouseover = "upDate(this)" onmouseout = "unDo()"> 
        <br>
+       <div class="caption">
+          <p>Lorem ipsum...</p>
+      </div>
     </div>
     <div class="col-sm-3" >
        <img class="img-responsive" src="highway.jpg" alt="Highway" width="300" height="200" onmouseover = "upDate(this)" onmouseout = "unDo()"> 
        <br>
+       <div class="caption">
+          <p>Lorem ipsum...</p>
+      </div>
     </div>
     <div class="col-sm-3" >
        <img class="img-responsive" src="boat.jpg" alt="Boat on riverside" width="300" height="200" onmouseover = "upDate(this)" onmouseout = "unDo()"> 
        <br>
+       <div class="caption">
+          <p>Lorem ipsum...</p>
+      </div>
     </div>
     <div class="col-sm-3" >
        <img class="img-responsive" src="tower.jpg" alt="Tower" width="300" height="200" onmouseover = "upDate(this)" onmouseout = "unDo()"> 
        <br>
+       <div class="caption">
+          <p>Lorem ipsum...</p>
+      </div>
     </div>
 
   
@@ -109,14 +150,12 @@
 
          <div class="footer-icons">
 
-          <a href="#"><i class="fa fa-facebook"></i></a>
-          <a href="https://twitter.com/innovatoronspr"><i class="fa fa-twitter"></i></a>
-          <a href="https://www.linkedin.com/in/siddharthonspree/"><i class="fa fa-linkedin"></i></a>
-          <a href="https://github.com/innovatoronspree"><i class="fa fa-github"></i></a>
+          <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+          <a href="https://twitter.com/innovatoronspr" target="_blank"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/siddharthonspree/" target="_blank"><i class="fa fa-linkedin"></i></a>
+          <a href="https://github.com/innovatoronspree" target="_blank"><i class="fa fa-github"></i></a>
           <a href="mailto:siddharthsharmjp@gmail.com?subject=Greeting%20Siddharth&body=Hello%20,How%20have%20you%20been"><i class="fa fa-envelope-o"></i></a>
-          <br>
-          <br>
-          <br>
+          <br><br><br>
           <div>All rights reserved &copy; Siddharth Sharma</div>
          
 
