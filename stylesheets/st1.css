@@ -2,6 +2,12 @@ body{
     margin-left:2%;
     margin-right: 2%;
 }
+.bs-example{
+        margin-top:0px;
+    }
+.active{
+    margin-right:10px;
+}
 .navbar-default{
     background-color: silver;
     }
@@ -9,7 +15,9 @@ body{
 {
     text-transform: uppercase;
 
-}#message{
+}
+
+#message{
     line-height:78vh;
     width:500px;
     height: 78vh;
