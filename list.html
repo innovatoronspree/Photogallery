@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Photo Gallery</title>
+  <title>Photo Gallery 2</title>
   <meta charset="utf-8">
   
   <!--Main Content -->
@@ -18,9 +18,9 @@
 
 
   <!-- CUSTOM STYLESHEETS -->
-  <link rel="stylesheet" href="stylesheets/st1.css">
+  <link rel="stylesheet" href="stylesheets/st2.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src = "js/gallery.js"></script> 
+  <script src = "js/gallery2.js"></script> 
 </head>
 <body>
 
@@ -34,7 +34,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
       </li>
 <!--li class="nav-item">
         <a class="nav-link" href="#">Link</a>
@@ -44,7 +44,7 @@
           View as
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Grid</a>
+          <a class="dropdown-item" href="index.html">Grid</a>
           <a class="dropdown-item" style="background-color: #c0c0c0" href="#">List</a>
       </li>
     </ul>
@@ -60,7 +60,70 @@
   <!-- MAIN CONTENT -->
 <div class="container-fluid">
 
+<div class="col-sm-3">
+  <ul>
+    <li>
+      <img src="assets/forestroad.jpg" class="img-circle" alt="Forest Road" onclick = "upDate(this)" style="height:10vh; width:10vw;">
+      <caption>Forest Road</caption>
+    </li>
 
+    <br>
+
+    <li>
+      <img src="assets/rocks.jpg" class="img-circle" alt="Rocks" onclick = "upDate(this)" style="height:10vh; width:10vw;">
+      <caption>Rocks</caption>
+    </li>
+    
+    <br>
+
+    <li>
+      <img src="assets/monastery.jpg" class="img-circle"  alt="Monastery" onclick = "upDate(this)" style="height:10vh; width:10vw;">
+      <caption>Monastery</caption>
+    </li>
+
+    <br>
+
+    <li>
+    <img src="assets/castle.jpg" class="img-circle" alt="Castle" onclick = "upDate(this)" style="height:10vh; width:10vw;">
+    <caption>Castle</caption>
+  </li>
+
+  <br>
+
+    <li>
+      <img src="assets/History.jpg" class="img-circle" alt="Road Shot" onclick = "upDate(this)" style="height:10vh; width:10vw;">
+      <caption>Road Shot</caption>
+    </li>
+
+    <br>
+
+    <li>
+      <img src="assets/highway.jpg" alt="Highway" onclick = "upDate(this)" class="img-circle" style="height:10vh; width:10vw;">
+      <caption>Highway</caption>
+    </li>
+
+    <br>
+
+    <li>
+      <img src="assets/boat.jpg" alt="Boat on riverside" onclick = "upDate(this)" class="img-circle" style="height:10vh; width:10vw;">
+      <caption>Boat</caption>
+    </li>
+
+    <br>
+
+    <li>
+      <img src="assets/tower.jpg" alt="Tower" onclick = "upDate(this)" class="img-circle" style="height:10vh; width:10vw;">
+      <caption>Tower</caption>
+    </li>
+  </ul>
+</div>
+
+<div class="col-sm-9">
+<div id = "message">
+          Click on an image to display the image here.
+        </div>
+</div>
+  
 </div>
 
 <!-- END OF BOTTOM COLUMNS -->
